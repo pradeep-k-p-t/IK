@@ -22,7 +22,7 @@ class Course:
                 max_gpa = student.gpa
                 current_top_student = student
        return current_top_student
-        
+    
     
 Student1 = Student("Alice",20,3.5)
 Student2 = Student("Bob",22,3.8)
@@ -33,3 +33,5 @@ Course1.add_student(Student2)
 Course1.add_student(Student3)
 top_student = Course1.find_top()
 print(f"The top student is {top_student.name} with a GPA of {top_student.gpa}")
+
+# Find the common element in the list 
