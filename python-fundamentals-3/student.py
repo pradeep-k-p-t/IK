@@ -34,4 +34,3 @@ Course1.add_student(Student3)
 top_student = Course1.find_top()
 print(f"The top student is {top_student.name} with a GPA of {top_student.gpa}")
 
-# Find the common element in the list 

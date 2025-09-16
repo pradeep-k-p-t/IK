@@ -1,10 +1,8 @@
-def get_intersection_built_in(num1 : list[int], num2 : list[int])->list: 
-    num1 = set(num1)
-    num2 = set(num2)
-
-    return list(num1.intersection(num2))
-
-    
+def get_intersection_built_in(numbers1 : list[int], numbers2 : list[int])->list: 
+    intersect =  list(set(numbers1).intersection(set(numbers2)))
+    if len(intersect) == 0:
+        return [-1]
+    return intersect
 
 
 print(get_intersection_built_in([1,2,3,4],[1,2,4,5,6]))
