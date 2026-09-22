@@ -181,3 +181,7 @@ cython_debug/
 .cursorindexingignore
 .python-version
 /computer_vision_1/data
+nlp_1/Datasets/caption_model_10.h5
+nlp_1/Datasets/Flickr8k_Dataset.zip
+nlp_1/Datasets/IMDB-Movie-Data.csv
+nlp_1/Datasets/Tweets.csv
