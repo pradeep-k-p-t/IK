@@ -1,6 +1,7 @@
 {
     "python-envs.workspaceSearchPaths": [
         ".venv",
+        ".ik_projects",
         "*/.venv",
         "./nlp_1/.nlpenv"
     ]
